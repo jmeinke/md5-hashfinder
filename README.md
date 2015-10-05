@@ -1,7 +1,7 @@
 # md5-hashfinder
-Abschluss-Projekt des Kurses [Programmieren in C++](https://ad-wiki.informatik.uni-freiburg.de/teaching/ProgrammierenCplusplusSS2012) im SS2012 an der TF der Uni-Freiburg.
+Abschluss-Projekt des Kurses [Programmieren in C++](https://ad-wiki.informatik.uni-freiburg.de/teaching/ProgrammierenCplusplusSS2012) im Sommersemester 2012 an der [Technischen Fakultät](https://www.tf.uni-freiburg.de/) der Universität Freiburg.
 
-**Frei gewähltes Thema:** HashFinder für MD5- and SHA-1-Hashes
+**Frei gewähltes Thema:** HashFinder für MD5- and SHA1-Hashs
 
 ## Was kann das Programm?
 Das Programm findet Zeichenketten um für einen vorgegebenen Hash passende MD5- und SHA1- Kollisionen zu erzeugen. Dem Programm muss gesagt werden welche Kombinationen gegen diesen Hash geprüft werden sollen. Dies geht entweder durch die Angabe der erlaubten Zeichen und einer minimalen und maximalen Länge für die Kombination, oder durch die
@@ -33,7 +33,7 @@ Danach sollte die Programm-Datei *HashFinderMain* vorhanden sein.
    gerade auch unter Beachtung der geplanten Multithreading-Unterstützung
 2. Verstehen, wie Multithreading am besten funktioniert:
    Ergebnis: Aufteilung der Gesamtmenge an Aufgaben auf die Anzahl der
-   physikalisch verfügbaren Prozessoren. Mehr Threads als Prozessoren
+   physikalisch verfügbaren Prozessoren. Mehr Threads als Prozessoren.
 3. Berechnen der Hashes:
   - Finden einer C++-Klasse, die den MD5-Hash einer Zeichenkette berechnet
   - Finden einer C++-Klasse, die den SHA1-Hash einer Zeichenkette berechnet
