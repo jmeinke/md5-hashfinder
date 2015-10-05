@@ -1,0 +1,18 @@
+Den Quelltext für das Berechnen der Hashes habe ich aus folgenden Quellen
+übernommen:
+
+sha1.h and sha1.cpp
+http://pushover.sourceforge.net/repos/head/src/
+
+md5.h and md5.cpp
+http://www.zedwood.com/article/121/cpp-md5-function
+
+Date and Time: 26th of July 2012, 11:21
+
+Der Quelltext beider Algorithmen wurde so von mir verändert,
+dass er den Anforderungen des Projekts genügt und eine Unterklasse der Klasse
+HashAlgorithms ist. Beide Algorithmen können somit in gleicher Weise verwendet
+werden. Damit man meine Änderungen nachvollziehen kann, habe ich zuerst
+die Originalversionen eingecheckt und dann meine eigenen Veränderungen
+hinzugefügt. Diese sind also in der SVN-History sichtbar.
+
